@@ -15,6 +15,8 @@ function startTimerInterval() {
   requestAnimationFrame(startTimerInterval);
 }
 
+$( "#datepicker" ).datepicker();
+
 $(function () {
   //Calls the timerInterval function.
   startTimerInterval();
@@ -33,7 +35,6 @@ $(function () {
     
   })
 
-    $( "#datepicker" ).datepicker();
 
 });
 

@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
+    <title>Project Tracker</title>
+    <meta name="description" content="This is a project tracker for short projects in web development">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
     <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon">
@@ -14,8 +14,15 @@
 </head>
 
 <body>
+    <header>
+        <H1 id="currentDay"></H1>
+        <H1 id="currentTime"></H1>
 
-    <script src="./script.js" async defer></script>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.9/dayjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.9/plugin/advancedFormat.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
